@@ -208,6 +208,7 @@ namespace messaging_app
         private void ListBoxUsers_SelectedIndexChanged(object sender, EventArgs e)
         {
             LoadMessages();
+            lblChatUsername.Text = ListBoxUsers.SelectedItem?.ToString() ?? "Sohbet Seçilmedi";
         }
 
         private void timer1_Tick(object sender, EventArgs e)

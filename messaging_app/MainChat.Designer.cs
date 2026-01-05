@@ -79,9 +79,9 @@
             this.lblChatUsername.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChatUsername.Location = new System.Drawing.Point(137, 5);
             this.lblChatUsername.Name = "lblChatUsername";
-            this.lblChatUsername.Size = new System.Drawing.Size(164, 20);
+            this.lblChatUsername.Size = new System.Drawing.Size(125, 20);
             this.lblChatUsername.TabIndex = 3;
-            this.lblChatUsername.Text = "Konuşulan Kullanıcı Adı";
+            this.lblChatUsername.Text = "Sohbet Seçilmedi";
             // 
             // btnSend
             // 
